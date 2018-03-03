@@ -47,13 +47,12 @@ def make_sentence(reply):
             word1, word2 = word2, word3
         return ''.join(ret)
     else:
-        return ''
+        return reply
 
 def word_choice(sel):
     keys = sel.keys()
     ran = random.choice(list(keys))
     return ran
-
 
 def main():
     while True:

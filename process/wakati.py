@@ -7,6 +7,7 @@ text_file = 'hatsugen.txt'
 def tokenize(text):
     t = Tokenizer()
     result = []
+    #各行に分ける
     lines = text.split('\n')
     #末尾の空白行を削除
     del lines[-1]
