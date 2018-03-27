@@ -66,7 +66,7 @@ def word_choice(sel):
 #word2vecで似た単語を検出
 def w2v(word):
     like_words = model.most_similar(positive=[word])
-    return like_words[0][0]
+    return like_words[random.randint(0,4)][0]
 
 # チャットボットに返答させる --- (*3)
 def make_reply(text):
