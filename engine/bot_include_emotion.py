@@ -67,6 +67,8 @@ def word_choice(sel):
     return ran
 
 def main():
+    with open('../src/' + emo_param_file ,'w') as f:
+        f.write('0')
     while True:
         s = input('you  :')
         if s == 'quit':
