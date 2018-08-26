@@ -1,3 +1,5 @@
+# coding:utf-8
+
 from gensim.models import word2vec
 from janome.tokenizer import Tokenizer
 import json, random
